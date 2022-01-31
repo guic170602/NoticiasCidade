@@ -1,0 +1,18 @@
+:root{
+    font-size: 8px;
+    --vermelho: #b10333;
+    --vermelho-escuro: #69001d;
+    --vermelho-escuro2: #870529;
+    --vermelho-claro: #de003e;
+    --azul: #294c71;
+    --azul-claro: #3e7ab9;
+}
+
+body, header, div, figure, article, footer, img, nav, ul, li, a, main, aside, h1, h2, h3, h4, h5, h6, p{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}

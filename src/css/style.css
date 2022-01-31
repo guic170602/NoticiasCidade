@@ -1,0 +1,223 @@
+body{
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    
+    background: url(../img/fundo.png) repeat-x;
+}
+
+/*---------Header---------*/
+
+header div{
+    padding-top: 20px;
+    width: 750px;
+    margin: 0 auto;
+    background: url(../img/detalhe-topo.png) no-repeat right;
+    background-size: contain;
+}
+
+figcaption{
+    display: none;
+}
+
+header div nav ul{
+    border-radius: 10px;
+    margin-top: 30px;
+    width: max-content;
+    background-color: var(--vermelho);
+    display: flex;
+}
+
+header div nav ul li a{
+    display: block;
+    font-size: 2rem;
+    padding: 1.7rem 2.2rem;
+    color: white;
+}
+
+header div nav ul li:nth-child(n+2){
+    background: url(../img/divisor.png) no-repeat left;
+}
+
+header div nav ul li a:nth-child(1){
+    border-radius: 10px 0 0 10px;
+}
+
+header div nav ul li a#atual{
+    background-color: var(--vermelho-claro);
+}
+
+header div nav ul li a:hover{
+    color: var(--vermelho-escuro);
+}
+
+/*---------Main---------*/
+
+main{
+    display: flex;
+    width: 740px;
+    margin: 80px auto 0;
+}
+
+main aside{
+    background: url(../img/fundo-caixa.png);
+    width: 180px;
+    padding: 5px;
+}
+
+main aside:nth-child(1){
+    margin-bottom: 10px
+}
+
+h2.titulos{
+    display: block;
+    background-color: var(--azul);
+    width: 100%;
+    font-size: 2rem;
+    padding: 5px;
+    color: white;
+}
+
+main aside ul{
+    padding: 5px;
+    width: 100%;
+    background-color: white; 
+    margin-top: 5px;
+}
+
+main aside a{
+    display: block;
+    font-size: 1.8rem;
+    padding: 5px;
+    line-height: 30px;
+}
+
+main aside a i::before{
+    display: none;
+}
+
+main aside a:hover{
+    color: #aaaaaa;
+    background-color: #f9f9f9;
+}
+
+main aside a:hover i::before{
+    display: inline;
+}
+
+main aside ul li:nth-child(-n+7){
+    border-bottom: 1px solid #f3f3f3;
+}
+
+main aside div{
+    padding: 5px;
+    width: 100%;
+    background-color: white;
+    margin-top: 5px;
+}
+
+main aside div label{
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+main aside div input[type="email"]{
+    width: 98%;
+    border: 1px inset gray;
+    margin-bottom: 5px;
+}
+
+main aside div input[type="button"]{
+    border: 2px solid var(--vermelho-escuro2);
+    background-color: var(--vermelho);
+    color: white;
+}
+
+main .artigo{
+    width: 270px;
+    padding: 5px;
+    margin:0 10px 10px;
+    background: url(../img/fundo-caixa.png);
+}
+
+main .artigo .white{
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+main .artigo h3{
+    font-size: 1.6rem;
+    padding: 3px;
+    width: max-content;
+}
+
+main .artigo #first{
+    background-color: var(--vermelho);
+    color: #fff;
+}
+main .artigo figure{
+    width: 100%;
+}
+
+main .artigo img{
+    width: 100%;
+    border: 3px solid #dfdfdf;
+}
+
+main .artigo p{
+    font-size: 2rem;
+}
+
+main .artigo .destaque{
+    color: var(--vermelho);
+    padding: 2px;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+main .artigo .destaque:hover{
+    color: var(--vermelho-claro);
+}
+
+main .artigo #second{
+    background-color: var(--vermelho-claro);
+}
+
+main .futil{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+main .futil:hover{
+    background-color: #eeeeee;
+}
+
+main .futil figure{
+    width: max-content;
+}
+
+main .futil img{
+    width: 80px;
+    margin: 5px;
+    border: none;
+}
+
+main .futil h3{
+    color: var(--azul-claro);
+}
+
+main .futil p{
+    font-size: 1.4rem;
+}
+
+footer{
+    padding: 20px 0;
+    background-color: var(--azul);
+}
+
+footer p{
+    display: block;
+    color: white;
+    font-size: 2rem;
+    width: 740px;
+    margin: 0 auto;
+}
